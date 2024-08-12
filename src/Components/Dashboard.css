@@ -1,0 +1,108 @@
+.dashboard {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Colorful gradient background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .dashboard-title {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 700;
+    background: linear-gradient(45deg, #ff6f61, #d83c6a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .sidebar {
+    flex: 1;
+    background: linear-gradient(135deg, #a8c0ff, #fbc2eb); /* Gradient for the sidebar */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  
+  .sidebar h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .flashcard-list-item {
+    background: linear-gradient(135deg, #6dd5ed, #2193b0); /* Gradient for the flashcard items */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flashcard-list-item:hover {
+    background: linear-gradient(135deg, #2193b0, #6dd5ed); /* Reversed gradient on hover */
+    transform: scale(1.02);
+  }
+  
+  .flashcard-list-item.selected {
+    background: linear-gradient(135deg, #ff6f61, #d83c6a); /* Gradient for selected item */
+    color: white;
+    font-weight: 600;
+  }
+  
+  .dashboard-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard-input,
+  .dashboard-textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  .dashboard-button {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradient for the button */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .dashboard-button:hover {
+    background: linear-gradient(45deg, #feb47b, #ff7e5f); /* Reversed gradient on hover */
+    transform: scale(1.05);
+  }
+  
+  .flashcard-list-item-detail {
+    background: linear-gradient(135deg, #6dd5ed, #2193b0); /* Gradient for detail section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
